@@ -327,7 +327,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QLineEdit" name="lineEdit_id_change">
+              <widget class="QLineEdit" name="lineEdit_voucher_change">
                <property name="minimumSize">
                 <size>
                  <width>140</width>
@@ -570,7 +570,7 @@
                 </widget>
                </item>
                <item>
-                <widget class="QLineEdit" name="lineEdit_id_query">
+                <widget class="QLineEdit" name="lineEdit_voucher_query">
                  <property name="minimumSize">
                   <size>
                    <width>140</width>
@@ -819,7 +819,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QPushButton" name="pushButton_add">
+              <widget class="QPushButton" name="pushButton_add_page">
                <property name="text">
                 <string>新增</string>
                </property>
@@ -852,13 +852,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QTreeWidget" name="treeWidget">
-          <column>
-           <property name="text">
-            <string notr="true">1</string>
-           </property>
-          </column>
-         </widget>
+         <widget class="QTableWidget" name="tableWidget"/>
         </item>
        </layout>
       </widget>
@@ -868,6 +862,33 @@
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>dateEdit_change</tabstop>
+  <tabstop>lineEdit_subject1_change</tabstop>
+  <tabstop>lineEdit_subject2_change</tabstop>
+  <tabstop>lineEdit_digest_change</tabstop>
+  <tabstop>lineEdit_borrow_change</tabstop>
+  <tabstop>lineEdit_loan_change</tabstop>
+  <tabstop>lineEdit_remark_change</tabstop>
+  <tabstop>lineEdit_voucher_change</tabstop>
+  <tabstop>pushButton_add_info</tabstop>
+  <tabstop>pushButton_save</tabstop>
+  <tabstop>pushButton_return</tabstop>
+  <tabstop>dateEdit_query</tabstop>
+  <tabstop>lineEdit_subject1_query</tabstop>
+  <tabstop>lineEdit_subject2_query</tabstop>
+  <tabstop>lineEdit_voucher_query</tabstop>
+  <tabstop>lineEdit_digest_query</tabstop>
+  <tabstop>lineEdit_borrow_query</tabstop>
+  <tabstop>lineEdit_loan_query</tabstop>
+  <tabstop>lineEdit_remark_query</tabstop>
+  <tabstop>pushButton_query</tabstop>
+  <tabstop>pushButton_add_page</tabstop>
+  <tabstop>pushButton_delete</tabstop>
+  <tabstop>pushButton_import_data</tabstop>
+  <tabstop>pushButton_output_data</tabstop>
+  <tabstop>tableWidget</tabstop>
+ </tabstops>
  <resources>
   <include location="FinancialSoft.qrc"/>
  </resources>

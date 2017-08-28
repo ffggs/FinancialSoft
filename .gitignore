@@ -41,5 +41,8 @@ FinancialSoft/FinancialSoft.sdf
 FinancialSoft/FinancialSoft.v12.suo
 FinancialSoft/FinancialSoft/GeneratedFiles
 FinancialSoft/FinancialSoft/FinancialSoft.vcxproj.user
+FinancialSoft/FinancialSoft/Debug
+FinancialSoft/FinancialSoft/Release
+FinancialSoft/Win32
 
 123.txt

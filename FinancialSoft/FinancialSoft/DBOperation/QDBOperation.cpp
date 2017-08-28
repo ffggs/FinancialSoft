@@ -107,6 +107,8 @@ bool QDBOperation::getDBOneInfo(const QSqlQuery& sqlQuery, st_data_info& info)
 	info.strRemark = sqlQuery.value(7).toString();
 	info.strVoucher = sqlQuery.value(8).toString();
 	info.iId = sqlQuery.value(9).toInt();
+
+	return true;
 }
 
 bool QDBOperation::addOneData(st_data_info& data)

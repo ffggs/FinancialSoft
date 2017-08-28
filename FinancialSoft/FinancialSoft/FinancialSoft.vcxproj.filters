@@ -38,10 +38,31 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="DBOperation">
+      <UniqueIdentifier>{8148bac9-246e-4ca9-9d6b-06efb08772f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Comm">
+      <UniqueIdentifier>{82a62ec8-eeb1-4973-9404-742f22ee734f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TableOperation">
+      <UniqueIdentifier>{686aae68-bd10-4bd4-bec5-8d899e67dbba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_FinancialSoft.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DBOperation\QDBOperation.cpp">
+      <Filter>DBOperation</Filter>
+    </ClCompile>
+    <ClCompile Include="Comm\CommFunc.cpp">
+      <Filter>Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="TableOperation\QTableOperation.cpp">
+      <Filter>TableOperation</Filter>
     </ClCompile>
     <ClCompile Include="FinancialSoft.cpp">
       <Filter>Source Files</Filter>
@@ -49,27 +70,30 @@
     <ClCompile Include="GeneratedFiles\Debug\moc_FinancialSoft.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_FinancialSoft.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_FinancialSoft.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="FinancialSoft.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="FinancialSoft.ui">
       <Filter>Form Files</Filter>
     </CustomBuild>
     <CustomBuild Include="FinancialSoft.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="DBOperation\QDBOperation.h">
+      <Filter>DBOperation</Filter>
+    </CustomBuild>
+    <CustomBuild Include="FinancialSoft.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_FinancialSoft.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Comm\CommFunc.h">
+      <Filter>Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="TableOperation\QTableOperation.h">
+      <Filter>TableOperation</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

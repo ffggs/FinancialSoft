@@ -6,6 +6,7 @@
 #include <QMutex>
 #include <QSharedPointer>
 #include <functional>
+#include <QSqlQuery>
 
 enum class em_money_type{
 	type_bank = 1,        // ÒøĞĞ¿¨Àà
