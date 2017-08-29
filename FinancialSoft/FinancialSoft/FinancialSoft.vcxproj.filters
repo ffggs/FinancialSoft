@@ -47,6 +47,9 @@
     <Filter Include="TableOperation">
       <UniqueIdentifier>{686aae68-bd10-4bd4-bec5-8d899e67dbba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{0d1e3668-c4c5-4af5-b3c7-49de9f49faf0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -70,6 +73,15 @@
     <ClCompile Include="GeneratedFiles\Debug\moc_FinancialSoft.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FinancialSoft.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QTableOperation.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QTableOperation.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="FinancialSoft.ui">
@@ -84,6 +96,9 @@
     <CustomBuild Include="FinancialSoft.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="TableOperation\QTableOperation.h">
+      <Filter>TableOperation</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_FinancialSoft.h">
@@ -92,8 +107,14 @@
     <ClInclude Include="Comm\CommFunc.h">
       <Filter>Comm</Filter>
     </ClInclude>
-    <ClInclude Include="TableOperation\QTableOperation.h">
-      <Filter>TableOperation</Filter>
+    <ClInclude Include="Data\QueryInfo.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\DataInfo.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Comm\CommHeader.h">
+      <Filter>Comm</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
